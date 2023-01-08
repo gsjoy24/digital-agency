@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+/* reset and reusable styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+	transition: 200ms;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style: none;
+}
+.clr-primary {
+	color: rgb(254, 78, 25);
+}
+.btn {
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn-primary {
+	background-color: rgb(254, 78, 25);
+	color: #fff;
+}
+section {
+	padding: 60px 50px;
+}
+/* navigation styles */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(184, 178, 178);
+	min-height: 12vh;
+	padding: 0px 100px;
+}
+.nav-links ul {
+	display: flex;
+	gap: 15px;
+}
+
+/* header styles */
+header {
+	min-height: 100vh;
+	background-color: rgba(43, 40, 40, 0.902);
+	background-image: url(../asset/image/background\ .jpg);
+	background-blend-mode: overlay;
+	background-size: cover;
+}
+.header-container {
+	min-height: 88vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-content {
+	max-width: 550px;
+	text-align: center;
+	color: #fff;
+}
+.header-content h1 {
+	font-size: 60px;
+}
+.header-content p {
+	margin: 20px 0 40px;
+}
+.header-content .btn-primary {
+	margin-right: 20px;
+}
+
+/* service styles */
+/* styles of left side */
+.services {
+	background-image: url(../asset/image/footer-bg.png);
+	background-color: rgba(0, 0, 0, 0.917);
+	background-blend-mode: overlay;
+	background-size: 70%;
+	color: rgb(219, 219, 219);
+   padding-bottom: 150px;
+}
+.services-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.service-content {
+	max-width: 450px;
+}
+.service-list-sub {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 13px;
+	border-radius: 40px;
+	color: rgb(63, 60, 60);
+	background-color: #fff;
+}
+.service-content h2 {
+	font-size: 28px;
+	margin: 15px 0;
+}
+.service-content .service-description,
+.service-list p {
+	font-size: 14px;
+	margin: 15px 0;
+}
+.service-list {
+	margin-bottom: 30px;
+}
+.service-list p {
+	margin: 8px 0;
+}
+.service-person-container {
+	display: flex;
+	align-items: center;
+}
+.service-person {
+	display: flex;
+	align-items: center;
+	min-width: 200px;
+	justify-content: space-around;
+	margin-right: 20px;
+	border-right: 2px solid rgb(254, 78, 25);
+}
+.service-person img {
+	width: 60px;
+	border-radius: 50%;
+}
+
+/* styles of right side */
+.right-service-container {
+	display: flex;
+	justify-content: space-between;
+}
+.service-box {
+	min-width: 220px;
+	padding: 50px 20px;
+	margin: 10px;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	border-radius: 8px;
+}
+.service-box img {
+	width: 80px;
+	margin-bottom: 20px;
+}
+
+/* appointment styles */
+.appointment {
+   background-color: rgb(237, 93, 15);
+   color: #fff;
+   padding: 40px 0;
+   max-width: 900px;
+   margin: 0 auto;
+   margin-top: -80px;
+   border-radius: 15px;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.appointment p{
+   font-size: 12px;
+   max-width: 400px;
+   margin: 0 20px;
+}
+.appointment img{
+   margin-right: 20px;
+}
+.number{
+   min-width: 150px;
+   padding: 20px 0;
+   border-right: 1px solid rgb(255, 255, 255);
+}
+.number h6{
+   font-size: 8px;
+   margin-bottom:5px;
+}
+.appointment .btn{
+   font-size: 11px;
+   
+}
